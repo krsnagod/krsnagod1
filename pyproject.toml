@@ -3,16 +3,16 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "devgod"
+name = "krsnagod"
 version = "27.0.0"
-description = "DEV BHAGWAN - Ultimate 24/7 Telegram Bot Cluster Engine"
+description = "KRSNA BHAGWAN - Ultimate 24/7 Telegram Bot Cluster Engine"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [
-    { name = "god_olds" }
+    { name = "wjv_1" }
 ]
-keywords = ["telegram", "bot", "devgod", "matrix", "cluster", "telegram-bot"]
+keywords = ["telegram", "bot", "krsnagod", "matrix", "cluster", "telegram-bot"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -30,13 +30,13 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/hostgodx/devgod"
-Repository = "https://github.com/hostgodx/devgod.git"
+Homepage = "https://github.com/krsnagod"
+Repository = "https://github.com/krsnagod/krsnagod.git"
 Issues = "https://github.com/hostgodx/devgod/issues"
 
 [project.scripts]
-devgod = "devgod.cli:main"
-dev-god = "devgod.cli:main"
+krsnagod = "krsnagod.cli:main"
+krsna-god = "krsnagod.cli:main"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
